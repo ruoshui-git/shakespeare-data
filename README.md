@@ -4,10 +4,10 @@
 
 `play.py` is the newer version, which includes stripping folger prefix in file and dir names and options to format the plays and concatenate them into one text file for training.
 
-`sp.txt` and `sp-prefix.txt` are the output files. `sp-prefix.txt` was the one I eventually used. Both add a `<|endoftext|>` between each play.
+`sp.txt` and `sp-prefix.txt` are the output files. `sp-prefix.txt` was the one I eventually used.
 They only contain the plays, not poems and sonnets. (See `shakespeare-works` folder).
 
-`sp.txt` - texts in the files directly related Folger were stripped away.
+`sp.txt` - texts in the files directly related Folger were stripped away, and add `<|endoftext|>` between each play.
 
 `sp-prefix.txt` - in addition to `sp.txt`, removed ACT and SCENE headers and separators, and prefixed each play with a unique number.
 
